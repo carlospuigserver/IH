@@ -1,7 +1,7 @@
 /* Estilos para el cuerpo de la página */
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f7f7f7;
+    font-family: Arial, Helvetica,  sans-serif;
+    background-color: rgb(205, 111, 29);
     margin: 0;
     padding: 0;
 }
@@ -9,7 +9,7 @@ body {
 /* Estilos para el encabezado */
 h1 {
     text-align: center;
-    color: #333;
+    color: white;
     margin-top: 20px;
 }
 
@@ -17,7 +17,7 @@ h1 {
 .container {
     max-width: 400px;
     margin: 0 auto;
-    background-color: #f2f2f2;
+    background-color: rgb(199, 161, 33);
     padding: 20px;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
@@ -28,7 +28,7 @@ label {
     display: block;
     margin-bottom: 10px;
     font-weight: bold;
-    color: #555;
+    color: blue;
 }
 
 /* Estilos para los campos de entrada y el botón */
