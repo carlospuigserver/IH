@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Formulario HTML</title>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+    <h1>¿Quién crees que es más guapo?</h1>
+    <!-- Formulario -->
+    <form action="procesar.php" method="post" class="container">
+        <!-- Select -->
+        <label for="opcion">Selecciona una opción:</label>
+        <select id="opcion" name="opcion">
+            <option value="opcion1">Migui</option>
+            <option value="opcion2">Gonzalo</option>
+            <option value="opcion3">Ambos</option>
+        </select>
+
+        <!-- Textarea -->
+        <label for="comentario">Escribe lo que más te gusta de la elección escogida:</label>
+        <textarea id="comentario" name="comentario" rows="4" cols="50"></textarea>
+
+        <!-- Text -->
+        <label for="nombre">¿En qué crees que la persona seleccionada es mejor que tú?</label>
+        <input type="text" id="nombre" name="nombre" required>
+
+        <!-- Email -->
+        <label for="correo">Escribe tu correo para recibir información de la persona seleccionada:</label>
+        <input type="email" id="correo" name="correo" required>
+
+        <!-- Radios para cursos -->
+        <label>Elige un curso para ser mas guapo:</label>
+        <input type="radio" id="webdev" value="webdev" name="curso">
+        <label for="webdev">Guapetepote</label>
+
+        <input type="radio" id="uxui" value="uxui" name="curso">
+        <label for="uxui">Preciosonasa</label>
+
+        <input type="radio" id="data" value="data" name="curso">
+        <label for="data">Guapet</label>
+
+        <!-- Botón de Envío -->
+        <button type="submit">Enviar</button>
+    </form>
+</body>
+</html>
